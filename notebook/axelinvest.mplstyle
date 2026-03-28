@@ -1,0 +1,54 @@
+# axelinvest.mplstyle
+# Personal style - GitHub Scholar
+# Palette: Okabe-Ito (colorblind-friendly)
+
+
+## --- FIGURE ---
+figure.facecolor:   f6f8fa
+figure.figsize:     9, 5.5
+figure.dpi:         110
+
+
+## --- AXES ---
+axes.facecolor:     ffffff
+axes.edgecolor:     cccccc
+axes.linewidth:     0.8
+
+axes.spines.top:    False
+axes.spines.right:  False
+
+axes.axisbelow:     True
+
+
+## --- OKABE-ITO COLOR PALETTE ---
+axes.prop_cycle: cycler('color', ['0072B2', 'E69F00', '009E73', 'CC79A7', '56B4E9', 'D55E00', 'F0E442'])
+
+## --- GRID ---
+axes.grid:          True
+grid.color:         d0d7de
+grid.linewidth:     0.7
+grid.linestyle:     --
+grid.alpha:         0.6
+
+
+## --- TEXT ---
+font.family:        sans-serif
+font.size:          11
+axes.titlesize:     14
+axes.titleweight:   bold
+axes.labelsize:     11
+axes.labelcolor:    24292f
+text.color:         24292f
+xtick.color:        57606a
+ytick.color:        57606a
+
+
+## --- LEGEND ---
+legend.framealpha:  0.9
+legend.edgecolor:   d0d7de
+legend.fontsize:    10
+
+
+## --- LINES & MARKERS ---
+lines.linewidth:    2.2
+lines.markersize:   7
